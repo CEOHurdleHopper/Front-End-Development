@@ -1,0 +1,43 @@
+.custom-btn {
+
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+}
+
+.custom-disabled-btn {
+    background-color: #607466;
+    color: #7BD389;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+}
+
+.custom-pointer-disabled-btn {
+
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+    pointer-events: none;
+}
+
+.custom-color-btn {
+
+    background-color: #7BD389;
+    color: #343E3D;
+    --bs-btn-padding-y: .25rem;
+    --bs-btn-padding-x: .5rem;
+    --bs-btn-font-size: .75rem;
+}
+
+.custom-lg-color-btn {
+
+    background-color: #7BD389;
+    color: #343E3D;
+}
+
+.custom-lg-color-btn:hover {
+/* Using the :hover after a specific custom class will make all objects of that class react to being hovered over in the way specified. */
+    background-color: #38E4AE;
+    color: #607466;
+}
