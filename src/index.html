@@ -46,34 +46,33 @@
         </div>
     </header>
 
-    
-
     <main>
       <div class=header>
         <h1 class= "display-1" id="title">Homepage</h1>
       </div>
 
+      <button type="button" class="btn btn-success">Button</button>
+      <a class="btn btn-outline-success" href="#">Outlined Link</a>
+      <a class="btn btn-outline-success btn-sm" href="#">small Outlined Link</a>
+      <a class="btn btn-outline-success btn-lg" href="#">Large Outlined Link</a>
+      
+    
+      <!-- This is going to be my first attempt at adding in my own custom css file to my website -->
+      <a class="btn btn-outline-success custom-btn" href="#">Custom Outlined Link</a>
+  
+      <!-- This is going to be a change in color of the button through a seprate css file -->
+      <a class="btn btn custom-color-btn" href="#">Custom Colored Link</a>
+  
+      <!-- This will now make the button link from earlier larger -->
+      <a class="btn btn btn-lg custom-lg-color-btn" href="#">Large Custom Colored Link</a>
+  
+      <!-- The aria-disabled="true" is a counter measure to make sure that assistive technologies like screen readers do not pick up on disabled buttons using the <a> element
+           You add the .disabled class to the <a> element to give it the disabled appearance, such as grayed-out text or button styles (depending on Bootstrap's styling).
+           tabindex="-1" This ensures the link is not focusable using the keyboard, which is another typical behavior of disabled buttons or links.-->
+      <a class="btn custom-disabled-btn disabled" aria-disabled="true">Custom Disabled Button</a>
+
     </main>
 
-    <button type="button" class="btn btn-success">Button</button>
-    <a class="btn btn-outline-success" href="#">Outlined Link</a>
-    <a class="btn btn-outline-success btn-sm" href="#">small Outlined Link</a>
-    <a class="btn btn-outline-success btn-lg" href="#">Large Outlined Link</a>
-    
-  
-    <!-- This is going to be my first attempt at adding in my own custom css file to my website -->
-    <a class="btn btn-outline-success custom-btn" href="#">Custom Outlined Link</a>
-
-    <!-- This is going to be a change in color of the button through a seprate css file -->
-    <a class="btn btn custom-color-btn" href="#">Custom Colored Link</a>
-
-    <!-- This will now make the button link from earlier larger -->
-    <a class="btn btn btn-lg custom-lg-color-btn" href="#">Large Custom Colored Link</a>
-
-    <!-- The aria-disabled="true" is a counter measure to make sure that assistive technologies like screen readers do not pick up on disabled buttons using the <a> element
-         You add the .disabled class to the <a> element to give it the disabled appearance, such as grayed-out text or button styles (depending on Bootstrap's styling).
-         tabindex="-1" This ensures the link is not focusable using the keyboard, which is another typical behavior of disabled buttons or links.-->
-    <a class="btn custom-disabled-btn disabled" aria-disabled="true">Custom Disabled Button</a>
     <footer>
     </footer>
     
