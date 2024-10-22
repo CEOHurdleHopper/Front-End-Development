@@ -1,3 +1,13 @@
+#Home{
+    background-color: #023436;
+}
+
+#title {
+    font-size: 75pt;
+    font-family: system-ui;
+    color: #03B5AA
+  }
+
 .custom-btn {
 
     --bs-btn-padding-y: .25rem;
@@ -42,10 +52,11 @@
     color: #607466;
 }
 
-#Home{
-    background-color: #023436;
-}
-
 .center-text{
     text-align: center;
+}
+
+.header{
+    text-align: center;
+    padding: 15pt;
 }
