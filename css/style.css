@@ -33,15 +33,44 @@
 
 .custom-color-btn {
 
+    /* This button is going to be used on the home page. */
+    text-decoration: none; 
+    border: none; 
+    padding: 12px 40px; 
+    font-size: 16px;
     background-color: #7BD389;
     color: #343E3D;
-    --bs-btn-padding-y: .25rem;
+    border-radius: 10px; 
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24); 
+    cursor: pointer; 
+    outline: none; 
+    transition: 0.2s all;
+
+    /* --bs-btn-padding-y: .25rem;
     --bs-btn-padding-x: .5rem;
-    --bs-btn-font-size: .75rem;
+    --bs-btn-font-size: .75rem; */
+}
+
+.custom-color-btn:active{
+    /* Makes it so that when a custom class element is clicked it will perform certain css changes in this case the specific class name is "custom-color-btn"*/
+    background-color: #AEDCC0;
+    color: #343E3D;
+
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.custom-color-btn:hover{
+    /* Using the :hover after a specific custom class will make all objects of that class react to being hovered over in the way specified.
+    in this case the specific class name is "custom-color-btn"*/
+    background-color: #AEDCC0;
+    color: #343E3D;
+
+    /* transform: scale(1.12);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); */
 }
 
 .custom-lg-color-btn {
-
     background-color: #7BD389;
     color: #343E3D;
 }
